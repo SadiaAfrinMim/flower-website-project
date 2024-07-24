@@ -15,16 +15,16 @@ body {
 }
 
 .beatiful-flower-section {
-  height: 850px;
-  width: 1657px;
+  
+  max-width: 1657px;
 
   margin: 0 auto;
   background: rgba(229, 84, 115, 0.1);
 }
 
 .beautyful-section {
-  height: 850px;
-  width: 1657px;
+ 
+  max-width: 1657px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -34,7 +34,7 @@ body {
 .beautyful-content h1 {
   color: rgb(39, 39, 39);
 
-  font-size: 80px;
+  font-size: 4rem;
   font-weight: 800;
   line-height: 96px;
   letter-spacing: 0%;
@@ -52,8 +52,8 @@ body {
 }
 
 .banner-flower img {
-  width: 600px;
-  height: 700px;
+  
+ 
   box-shadow: rgba(236, 11, 150, 0.35) 0px 5px 15px;
   border-radius: 5px 100px 5px 100px;
 }
@@ -80,8 +80,7 @@ body {
 }
 
 .choose-flower {
-  width: 1400px;
-  height: 800px;
+  max-width: 1400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -115,8 +114,8 @@ body {
 }
 
 .image-flower {
-  width: 464px;
-  height: 538px;
+  max-width: 464px;
+  max-height: 538px;
 }
 
 .image-flower img {
@@ -138,15 +137,16 @@ body {
 }
 
 .Fresh-Flowers {
-  width: 1680px;
-  height: 350px;
+  max-width: 1680px;
+  
   background: rgba(39, 39, 39, 0.05);
   margin: 0 auto;
+  padding: 6rem 0;
 }
 
 .image-freash-flower {
-  width: 1680px;
-  height: 350px;
+  max-width: 1680px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,8 +169,8 @@ body {
 
 /* Hot Deal ! Sale Up To 25% Off */
 .hot-deal {
-  width: 1680px;
-  height: 550px;
+  max-width: 1680px;
+ 
   background: rgba(229, 84, 115, 0.05);
   margin: 0 auto;
 
@@ -227,8 +227,8 @@ body {
 }
 
 .instragram-section {
-  width: 1400px;
-  height: 600px;
+  max-width: 1400px;
+  
   margin: 0 auto;
   
 }
@@ -253,7 +253,7 @@ body {
   text-align: center;
   padding: 50px 0 40px 0;
 }
-.flower-section{
+.flower-sectionn{
   
   
   display: flex;
@@ -282,9 +282,9 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding: 80px 0;
  
 }
 
@@ -293,8 +293,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  width: 1400px;
+  max-height: 400px;
+  max-width: 1400px;
 }
 
 .latest-deals h2 {
@@ -355,15 +355,15 @@ body {
 
 /* footer-section */
 .footer-section {
-  height: 350px;
-  width: 1657px;
+  max-height: 350px;
+  max-width: 1657px;
   background: rgb(17, 16, 16);
   margin: 0 auto;
 }
 
 .FlowerShop {
-  height: 350px;
-  width: 1657px;
+  max-height: 350px;
+  max-width: 1657px;
   display: flex;
   flex-direction: column;
   justify-content: center;

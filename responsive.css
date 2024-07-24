@@ -1,0 +1,151 @@
+.hide{
+    display: none;
+  }
+  @media screen and (min-width: 576px) and (max-width: 992px){
+    .flower-section, .flower-sectionn,.flower-images,
+    .FlowerShop, .btn, .latest-deals,
+    .flower-sectionn,
+    .beautyful-section, .flower-images,.image-freash-flower,.hot-deal{
+      flex-direction: column;
+    
+    }
+    .beautyful-section{
+        width: 100%;
+    }
+    .beatiful-flower-section{
+        width: 100%;
+    }
+    .beautyful-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .banner-flower img{
+        width: 80%;
+        margin: 50px 20px;
+        background-color: none;
+    }
+    .beautyful-content h1 {
+        color: rgb(39, 39, 39);
+      
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 0%;
+        align-items: center;
+      }
+      .Fresh-Flowers{
+        width: 100%;
+      }
+      .flower-image{
+        width: 100%;
+      }
+   
+    .flower-sectionn{
+      margin: 0;
+      width: 0 30px;
+      
+    }
+   
+    .beautyful-section{
+      padding: 0;
+     
+    }
+    .instragram-section-describe{
+      margin: 0;
+    }
+   
+    .instragram-section{
+      width: auto;
+      height: auto;
+    }
+    .image-freash-flower {
+        
+        gap: 50px;
+        padding: 0 100px;
+      }
+      .dealship{
+        width: 100%;
+      }
+      .footer-section{
+        padding: 50px;
+      }
+  
+   
+   
+   
+  }
+  
+  @media screen and (max-width: 576px) {
+    .flower-section, .flower-sectionn,.flower-images,
+    .FlowerShop, .btn, .latest-deals,
+    .flower-sectionn,
+    .beautyful-section, .flower-images,.image-freash-flower,.hot-deal{
+      flex-direction: column;
+    
+    }
+    .beautyful-section{
+        width: 100%;
+    }
+    .beatiful-flower-section{
+        width: 100%;
+    }
+    .beautyful-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .banner-flower img{
+        width: 80%;
+        margin: 50px 20px;
+        background-color: none;
+    }
+    .beautyful-content h1 {
+        color: rgb(39, 39, 39);
+      
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 0%;
+        align-items: center;
+      }
+      .Fresh-Flowers{
+        width: 100%;
+      }
+      .flower-image{
+        width: 100%;
+      }
+   
+    .flower-sectionn{
+      margin: 0;
+      width: 0 30px;
+      
+    }
+   
+    .beautyful-section{
+      padding: 0;
+     
+    }
+    .instragram-section-describe{
+      margin: 0;
+    }
+   
+    .instragram-section{
+      width: auto;
+      height: auto;
+    }
+    .image-freash-flower {
+        
+        gap: 50px;
+        padding: 0 100px;
+      }
+      .dealship{
+        width: 100%;
+      }
+      .footer-section{
+        padding: 50px;
+      }
+  
+   
+   
+   
+  }
+  
